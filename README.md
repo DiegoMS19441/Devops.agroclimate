@@ -5,3 +5,7 @@
 
 # Link do repositório da API
 https://github.com/DiegoMS19441/Agroclimate.version3
+
+# Requisições
+Para as requisições utilizamos o insomnia, com o import do scratch pad contendo
+todos os JSONs prontos. Utilize o arquivo Agroclimate Requests para testar requisições 
