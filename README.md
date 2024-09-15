@@ -36,9 +36,9 @@ Os requests realizados no video podem ser importados no insomnia para que abram 
 }
 
 
-GET: https://api-agroclimate.azurewebsites.net/fazendas/4353
+## GET: https://api-agroclimate.azurewebsites.net/fazendas/4353
 
-DELETE: https://api-agroclimate.azurewebsites.net/fazendas/4353
+## DELETE: https://api-agroclimate.azurewebsites.net/fazendas/4353
 
 LEMBRE-SE DE SUBSTITUIR OS IDs NO FINAL DE CADA URL POR AQUELES QUE FOREM GERADOS DURANTE A SUA EXECUÇÃO.
 
