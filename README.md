@@ -1,13 +1,14 @@
 # Agroclimate
 
-# Visão geral do Banco de Dados
-![image](https://github.com/user-attachments/assets/0a77bc0a-5eae-4bd4-a2f4-ef96805ffa94)
-Script do banco em: AgroclimateTables.sql
+# Descritivo da solução
+Nosso projeto é voltado para o campo da agricultura. Temos como objetivo desenvolver uma ferramenta que auxilie o agricultor a investir seus recursos em colheitas produtivas. A ferramenta agroclimate vai permitir que através de dados históricos o usuário consiga visualizar através de relatórios quais safras foram mais proveitosas considerando fatores climático, tipo de solo etc., dessa foram o agricultor poderá maximizar seus lucros, pois vai saber quais alimentos podem ser plantados em determinadas épocas do ano e não gastará insumos em plantações improdutivas.
+
+
 
 # Sobre a API
-https://github.com/DiegoMS19441/Agroclimate.version3
+https://github.com/DiegoMS19441/Agroclimate.version2
 
-Esta api utiliza validação via token JWT por isso é importante definir
+Os requests realizados no video podem ser importados no insomnia para que abram de maneira automatica [Baixe]()
 
 
 # Requisições
