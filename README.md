@@ -8,9 +8,8 @@ Nosso projeto é voltado para o campo da agricultura. Temos como objetivo desenv
 # Sobre a API
 https://github.com/DiegoMS19441/Agroclimate.version2
 
-Os requests realizados no video podem ser importados no insomnia para que abram de maneira automatica [Baixe]()
+Os requests realizados no video podem ser importados no insomnia para que abram de maneira automatica [Baixe](Requests_API.json)
 
 
-# Requisições
-Para as requisições utilizamos o insomnia, com o import do scratch pad contendo
-todos os JSONs prontos. Utilize o arquivo (Agroclimate Requests) para testar requisições
+# Video de Apresentação
+https://youtu.be/CGCWJDdOmK4
