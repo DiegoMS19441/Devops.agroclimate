@@ -1,4 +1,4 @@
---CriaÁ„o de tabelas
+--Cria√ß√£o de tabelas
 
 CREATE TABLE Agricultor (
    id_agricultor INT PRIMARY KEY,
@@ -36,11 +36,17 @@ CREATE TABLE Plantacao (
 );
 
 
--------------
+--selects
+select * from Agricultor;
+select * from Plantacao;
+select * from Fazenda;
+select * from Solo;
 
+
+--Insert
 INSERT INTO Agricultor (id_agricultor, nome_agricultor, cpf)
 VALUES 
-(1, 'Jo„o Silva', '12345678901'),
+(1, 'Jo√£o Silva', '12345678901'),
 (2, 'Maria Oliveira', '09876543210'),
 (3, 'Pedro Almeida', '11122233344'),
 (4, 'Ana Santos', '55566677788'),
@@ -52,20 +58,20 @@ INSERT INTO Fazenda (id_fazenda, nome_fazenda, cnpj_fazenda, email, telefone, ce
 VALUES 
 (1, 'Fazenda Boa Vista', '12345678000199', 'fazenda1@example.com', '11987654321', '12345678', 1),
 (2, 'Fazenda Santa Luzia', '98765432000188', 'fazenda2@example.com', '11987654322', '87654321', 2),
-(3, 'Fazenda S„o Jorge', '11122233000177', 'fazenda3@example.com', '11987654323', '23456789', 3),
+(3, 'Fazenda S√£o Jorge', '11122233000177', 'fazenda3@example.com', '11987654323', '23456789', 3),
 (4, 'Fazenda Primavera', '44455566000166', 'fazenda4@example.com', '11987654324', '34567890', 4),
-(5, 'Fazenda Nova EsperanÁa', '66677788000155', 'fazenda5@example.com', '11987654325', '45678901', 5);
+(5, 'Fazenda Nova Esperan√ßa', '66677788000155', 'fazenda5@example.com', '11987654325', '45678901', 5);
 
 
 
 
 INSERT INTO Solo (id_solo, id_fazenda, nome_solo, tipo_solo, ph_solo, nutrientes_solo)
 VALUES 
-(1, 1, 'Solo Argiloso', 'Argila', 6.5, 'NitrogÍnio, FÛsforo, Pot·ssio'),
-(2, 2, 'Solo Arenoso', 'Areia', 5.8, 'Pot·ssio, MagnÈsio, C·lcio'),
-(3, 3, 'Solo Siltoso', 'Silt', 6.2, 'NitrogÍnio, C·lcio'),
-(4, 4, 'Solo Calc·rio', 'Calc·rio', 7.0, 'FÛsforo, MagnÈsio'),
-(5, 5, 'Solo Org‚nico', 'Org‚nico', 6.8, 'NitrogÍnio, Pot·ssio, C·lcio');
+(1, 1, 'Solo Argiloso', 'Argila', 6.5, 'Nitrog√™nio, F√≥sforo, Pot√°ssio'),
+(2, 2, 'Solo Arenoso', 'Areia', 5.8, 'Pot√°ssio, Magn√©sio, C√°lcio'),
+(3, 3, 'Solo Siltoso', 'Silt', 6.2, 'Nitrog√™nio, C√°lcio'),
+(4, 4, 'Solo Calc√°rio', 'Calc√°rio', 7.0, 'F√≥sforo, Magn√©sio'),
+(5, 5, 'Solo Org√¢nico', 'Org√¢nico', 6.8, 'Nitrog√™nio, Pot√°ssio, C√°lcio');
 
 
 
@@ -78,10 +84,10 @@ VALUES
 (5, 5, '2024-05-25', '30 hectares');
 
 
--------------------------------------------------------------------------------------
+--Update
 
 UPDATE Agricultor
-SET nome_agricultor = 'Jo„o dos Santos', cpf = '11122334455'
+SET nome_agricultor = 'Jo√£o dos Santos', cpf = '11122334455'
 WHERE id_agricultor = 1;
 
 UPDATE Agricultor
@@ -127,23 +133,23 @@ WHERE id_fazenda = 5;
 
 
 UPDATE Solo
-SET nome_solo = 'Solo Argiloso Rico', tipo_solo = 'Argila', ph_solo = 6.8, nutrientes_solo = 'NitrogÍnio, Pot·ssio, FÛsforo'
+SET nome_solo = 'Solo Argiloso Rico', tipo_solo = 'Argila', ph_solo = 6.8, nutrientes_solo = 'Nitrog√™nio, Pot√°ssio, F√≥sforo'
 WHERE id_solo = 1;
 
 UPDATE Solo
-SET nome_solo = 'Solo Arenoso Modificado', tipo_solo = 'Areia/Argila', ph_solo = 6.0, nutrientes_solo = 'Pot·ssio, MagnÈsio, NitrogÍnio'
+SET nome_solo = 'Solo Arenoso Modificado', tipo_solo = 'Areia/Argila', ph_solo = 6.0, nutrientes_solo = 'Pot√°ssio, Magn√©sio, Nitrog√™nio'
 WHERE id_solo = 2;
 
 UPDATE Solo
-SET nome_solo = 'Solo Siltoso Enriquecido', tipo_solo = 'Silt', ph_solo = 6.5, nutrientes_solo = 'NitrogÍnio, FÛsforo, MagnÈsio'
+SET nome_solo = 'Solo Siltoso Enriquecido', tipo_solo = 'Silt', ph_solo = 6.5, nutrientes_solo = 'Nitrog√™nio, F√≥sforo, Magn√©sio'
 WHERE id_solo = 3;
 
 UPDATE Solo
-SET nome_solo = 'Solo Calc·rio FÈrtil', tipo_solo = 'Calc·rio', ph_solo = 7.2, nutrientes_solo = 'FÛsforo, C·lcio, Pot·ssio'
+SET nome_solo = 'Solo Calc√°rio F√©rtil', tipo_solo = 'Calc√°rio', ph_solo = 7.2, nutrientes_solo = 'F√≥sforo, C√°lcio, Pot√°ssio'
 WHERE id_solo = 4;
 
 UPDATE Solo
-SET nome_solo = 'Solo Org‚nico Melhorado', tipo_solo = 'Org‚nico', ph_solo = 7.0, nutrientes_solo = 'NitrogÍnio, Pot·ssio, MagnÈsio'
+SET nome_solo = 'Solo Org√¢nico Melhorado', tipo_solo = 'Org√¢nico', ph_solo = 7.0, nutrientes_solo = 'Nitrog√™nio, Pot√°ssio, Magn√©sio'
 WHERE id_solo = 5;
 
 
@@ -169,7 +175,7 @@ SET data_plantacao = '2024-10-01', area_plantacao = '35 hectares'
 WHERE id_plantacao = 5;
 
 
-----------------------------------------------------------------------------------------------------
+--Delete
 
 
 DELETE FROM Plantacao WHERE id_plantacao IN (1, 2, 3, 4, 5);
