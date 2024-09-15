@@ -40,12 +40,9 @@ GET: https://api-agroclimate.azurewebsites.net/fazendas/4353
 
 DELETE: https://api-agroclimate.azurewebsites.net/fazendas/4353
 
+LEMBRE-SE DE SUBSTITUIR OS ID NO FINAL DE CADA URL POR AQUELES QUE FOREM GERADOS DURANTE A SUA EXECUÇÃO.
 
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/d6ef9e64-b1ea-47fe-b438-36da82fa3479)
 
 
 # Video de Apresentação
