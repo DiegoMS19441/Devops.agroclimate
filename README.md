@@ -10,6 +10,43 @@ https://github.com/DiegoMS19441/Agroclimate.version2
 
 Os requests realizados no video podem ser importados no insomnia para que abram de maneira automatica [Baixe](Requests_API.json)
 
+# Requições
+
+## POST: https://api-agroclimate.azurewebsites.net/fazendas
+
+{
+	"cnpj":"33347444844444",
+	"nome":"fazendinhas",
+	"cep": "04843500",
+	"email":"rm563391@fiap.com.br",
+	"telefone":"11234567891",
+	"tamanhoFazenda": 200
+}
+
+
+## PUT
+
+{
+	"cnpj":"23347444844444",
+	"nome":"fazendddddd",
+	"cep": "04843500",
+	"email":"rm5091@fiap.com.br",
+	"telefone":"11734567891",
+	"tamanhoFazenda": 300
+}
+
+
+GET: https://api-agroclimate.azurewebsites.net/fazendas/4353
+
+DELETE: https://api-agroclimate.azurewebsites.net/fazendas/4353
+
+
+
+
+
+
+
+
 
 # Video de Apresentação
 https://youtu.be/CGCWJDdOmK4
