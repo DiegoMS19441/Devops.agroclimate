@@ -4,6 +4,19 @@
 Nosso projeto é voltado para o campo da agricultura. Temos como objetivo desenvolver uma ferramenta que auxilie o agricultor a investir seus recursos em colheitas produtivas. A ferramenta agroclimate vai permitir que através de dados históricos o usuário consiga visualizar através de relatórios quais safras foram mais proveitosas considerando fatores climático, tipo de solo etc., dessa foram o agricultor poderá maximizar seus lucros, pois vai saber quais alimentos podem ser plantados em determinadas épocas do ano e não gastará insumos em plantações improdutivas.
 
 
+# Beneficios da Solução
+
+Os benefícios do projeto agroclima para o negócio incluem:
+
+1.Maximização dos lucros : Ao permitir que o agricultor faça escolhas mais informadas sobre quais safras plantar e quando, uma ferramenta ajuda a evitar investimentos em cultivos improdutivos, otimizando o uso de recursos.
+
+2.Redução de desperdícios : Com a previsão climática e análise de solo, o agricultor poderá reduzir o desperdício de insumos, como sementes e fertilizantes, direcionando-os para safras com maior potencial de sucesso.
+
+3.Melhor planejamento agrícola : Relatórios detalhados baseados em dados históricos permitem um planejamento agrícola mais eficiente, auxiliando na escolha de culturas adequadas para cada época do ano.
+
+4.Aumento da competitividade : Uma ferramenta confere ao agricultor uma vantagem competitiva, oferecendo dados que possibilitam uma adaptação rápida às mudanças climáticas e de mercado, resultando em uma operação mais 
+rentável e sustentável.
+
 
 # Sobre a API
 https://github.com/DiegoMS19441/Agroclimate.version2
