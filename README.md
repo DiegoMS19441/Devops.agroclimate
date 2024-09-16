@@ -8,13 +8,13 @@ Nosso projeto é voltado para o campo da agricultura. Temos como objetivo desenv
 
 Os benefícios do projeto agroclima para o negócio incluem:
 
-1.Maximização dos lucros : Ao permitir que o agricultor faça escolhas mais informadas sobre quais safras plantar e quando, uma ferramenta ajuda a evitar investimentos em cultivos improdutivos, otimizando o uso de recursos.
+1. Maximização dos lucros : Ao permitir que o agricultor faça escolhas mais informadas sobre quais safras plantar e quando, uma ferramenta ajuda a evitar investimentos em cultivos improdutivos, otimizando o uso de recursos.
 
-2.Redução de desperdícios : Com a previsão climática e análise de solo, o agricultor poderá reduzir o desperdício de insumos, como sementes e fertilizantes, direcionando-os para safras com maior potencial de sucesso.
+2. Redução de desperdícios : Com a previsão climática e análise de solo, o agricultor poderá reduzir o desperdício de insumos, como sementes e fertilizantes, direcionando-os para safras com maior potencial de sucesso.
 
-3.Melhor planejamento agrícola : Relatórios detalhados baseados em dados históricos permitem um planejamento agrícola mais eficiente, auxiliando na escolha de culturas adequadas para cada época do ano.
+3. Melhor planejamento agrícola : Relatórios detalhados baseados em dados históricos permitem um planejamento agrícola mais eficiente, auxiliando na escolha de culturas adequadas para cada época do ano.
 
-4.Aumento da competitividade : Uma ferramenta confere ao agricultor uma vantagem competitiva, oferecendo dados que possibilitam uma adaptação rápida às mudanças climáticas e de mercado, resultando em uma operação mais 
+4. Aumento da competitividade : Uma ferramenta confere ao agricultor uma vantagem competitiva, oferecendo dados que possibilitam uma adaptação rápida às mudanças climáticas e de mercado, resultando em uma operação mais 
 rentável e sustentável.
 
 
